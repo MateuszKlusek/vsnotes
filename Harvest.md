@@ -6,6 +6,10 @@ czwartek (12h)
 piątek
 - working on error boundaries for all app components plus global/system error boundary (all other components)
 
+
+
+----------------------------
+
 poniedziałek 
 - fixing the order book order side coloring bug
 - working on splitting error boundary on strategy details page
@@ -26,6 +30,10 @@ piątek
 - working on the number representation in TI
 - started working on the orders/trades toggle
 
+
+
+----------------------------
+
 poniedziałek
 - started working on the orders/trades toggle
 - working on Market trades alignment bug
@@ -39,13 +47,3 @@ wtorek
 - fix order book combined tooltip
 - add link to trades and orders 
 
-
-
-
-czwartek 
-- extending ActionableNumber to accomodate Percentage, signal Bar update
-- update links to database SpotSpread Market Depth cache
-- signal Bar + pagination
-
-piątek:
-- markets update data formatting
