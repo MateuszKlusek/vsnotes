@@ -28,3 +28,13 @@ limit algo externalId - `3d525f720592d17bcd05d08ed182e5edd313b8e6d4ac0686dc642a3
 
 
  Memory limit (total) exceeded: would use 5.69 GiB (attempt to allocate chunk of 8388608 bytes), maximum: 5.40 GiB. OvercommitTracker decision: Memory overcommit has freed not enough memory. 
+
+---- 
+
+
+getTokensMetadataByTicker -> cache.TokenInfo (for TradedAssetContext)
+
+AssetPairsPickerTable -> useInfiniteAssetPairList -> 
+setAssetPairList -> 
+`token.QueryTradingPairs` in Asset Pairs Picker
+ 
